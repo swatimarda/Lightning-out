@@ -10,9 +10,3 @@ app.get('/Main*' ,   function(req,res,next) {
 app.listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
-
-
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end('Hello World!');
-}).listen(process.env.PORT || 8081);

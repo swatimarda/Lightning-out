@@ -1,0 +1,17 @@
+<html>
+    WELCOME TO LIGHTNING OUT DEMO !!
+    <script src="https://componentdemo-dev-ed.lightning.force.com/lightning/lightning.out.js"></script>
+
+    <div id="lightning"/>
+    <script>
+            $Lightning.use("c:customer360App", function() {
+             $Lightning.createComponent(
+                "c:customer360","",
+                "lightning",
+                function(cmp) {
+                    console.log('component created');
+                    console.log(cmp);
+                });
+            });
+    </script>
+</html>

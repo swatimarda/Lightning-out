@@ -2,7 +2,7 @@
   "name": "Salesfore_Lightnign_Out_Demo",
   "version": "0.0.1",
   "description": "Surface Lightning Component on Node.js Application",
-  "main": "myFirst.js",
+  "main": "mySecond.js",
   "scripts": {
     "start": "node myFirst.js"
   },
@@ -12,7 +12,8 @@
   },
   "author": "Swati Marda",
   "dependencies": {
-    "http": "~0.0.0"
+    "http": "~0.0.0",
+    "express": "~4.9.8"
   },
   "engines": {
     "node": "9.8.0",
