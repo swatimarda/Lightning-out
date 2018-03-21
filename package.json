@@ -4,7 +4,7 @@
   "description": "Surface Lightning Component on Node.js Application",
   "main": "mySecond.js",
   "scripts": {
-    "start": "node myFirst.js"
+    "start": "node mySecond.js"
   },
   "repository": {
     "type": "git",
