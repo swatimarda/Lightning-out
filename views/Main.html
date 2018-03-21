@@ -6,8 +6,8 @@
 
     <div id="lightning"/>
     <script>
-         var url = $.cookie("InstURL");
-         url = url.replace("my.salesforce", "lightning.force");
+         //var url = $.cookie("InstURL");
+         //url = url.replace("my.salesforce", "lightning.force");
 
             $Lightning.use("c:customer360App", function() {
              $Lightning.createComponent(
@@ -17,6 +17,6 @@
                     console.log('component created');
                     console.log(cmp);
                 });
-            },url);
+            },'https://smarda-dev-ed.my.salesforce.com');
     </script>
 </html>
